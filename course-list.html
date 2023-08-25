@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>E-Learning</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
+
+    <link rel="stylesheet" href="assets/plugins/feather/feather.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+
+        <header class="header header-page">
+            <div class="header-fixed">
+                <nav class="navbar navbar-expand-lg header-nav-three scroll-sticky">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a id="mobile_btn" href="javascript:void(0);">
+                                <span class="bar-icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                            </a>
+                            <a href="index.html" class="navbar-brand logo">
+                                <img src="assets/img/logo/logo.png" class="img-fluid" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="main-menu-wrapper">
+                            <div class="menu-header">
+                                <a href="index.html" class="menu-logo">
+                                    <img src="assets/img/logo/logo.svg" class="img-fluid" alt="Logo">
+                                </a>
+                                <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </div>
+                            <ul class="main-nav">
+                                <li class="has-submenu active">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="index.html">Instructor <i class="fas fa-chevron-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="instructor-dashboard.html">Dashboard</a></li>
+                                        <li class="submenu">
+                                            <a href="instructor-list.html">Instructor List</a>
+                                            <!-- <ul class="submenu">
+                                                <li><a href="instructor-list.html">List</a></li>
+                                                <li><a href="instructor-grid.html">Grid</a></li>
+                                            </ul> -->
+                                        </li>
+                                        <!-- <li><a href="instructor-course.html">My Course</a></li>
+                                        <li><a href="instructor-reviews.html">Reviews</a></li>
+                                        <li><a href="instructor-earnings.html">Earnings</a></li>
+                                        <li><a href="instructor-orders.html">Orders</a></li>
+                                        <li><a href="instructor-payouts.html">Payouts</a></li>
+                                        <li><a href="instructor-tickets.html">Support Ticket</a></li>
+                                        <li><a href="instructor-edit-profile.html">Instructor Profile</a></li>
+                                        <li><a href="instructor-security.html">Security</a></li>
+                                        <li><a href="instructor-social-profiles.html">Social Profiles</a></li>
+                                        <li><a href="instructor-notification.html">Notifications</a></li>
+                                        <li><a href="instructor-profile-privacy.html">Profile Privacy</a></li>
+                                        <li><a href="instructor-delete-profile.html">Delete Profile</a></li>
+                                        <li><a href="instructor-linked-account.html">Linked Accounts</a></li> -->
+                                    </ul>
+                                </li>
+                                <li class="submenu">
+                                    <a href="students-list.html">Student List</a>
+                                    <!-- <ul class="submenu first-submenu">
+                                        <li class="submenu ">
+                                            <a href="students-list.html">Student List</a>
+                                            <ul class="submenu">
+                                                <li><a href="students-list.html">List</a></li>
+                                                <li><a href="students-grid.html">Grid</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="setting-edit-profile.html">Student Profile</a></li>
+                                        <li><a href="setting-student-security.html">Security</a></li>
+                                        <li><a href="setting-student-social-profile.html">Social profile</a></li>
+                                        <li><a href="setting-student-notification.html">Notification</a></li>
+                                        <li><a href="setting-student-privacy.html">Profile Privacy</a></li>
+                                        <li><a href="setting-student-accounts.html">Link Accounts</a></li>
+                                        <li><a href="setting-student-referral.html">Referal</a></li>
+                                        <li><a href="setting-student-subscription.html">Subscribtion</a></li>
+                                        <li><a href="setting-student-billing.html">Billing</a></li>
+                                        <li><a href="setting-student-payment.html">Payment</a></li>
+                                        <li><a href="setting-student-invoice.html">Invoice</a></li>
+                                        <li><a href="setting-support-tickets.html">Support Tickets</a></li> 
+                            </ul> -->
+                                </li>
+                                <li class="has-submenu">
+                                    <a href>Pages <i class="fas fa-chevron-down"></i></a>
+                                    <ul class="submenu">
+                                        <!-- <li><a href="notifications.html">Notification</a></li> -->
+                                        <li><a href="pricing-plan.html">Pricing Plan</a></li>
+                                        <!-- <li><a href="wishlist.html">Wishlist</a></li> -->
+                                        <li class="has-submenu">
+                                            <a href="course-list.html">Course</a>
+                                            <ul class="submenu">
+                                                <!-- <li><a href="add-course.html">Add Course</a></li> -->
+                                                <li><a href="course-list.html">Course List</a></li>
+                                                <!-- <li><a href="course-grid.html">Course Grid</a></li>
+                                                <li><a href="javascript:void(0)">Course Details</a></li> -->
+                                            </ul>
+                                        </li>
+                                        <!-- <li class="has-submenu">
+                                            <a href="come-soon.html">Error</a>
+                                            <ul class="submenu">
+                                                <li><a href="come-soon.html">Comeing soon</a></li>
+                                                <li><a href="error-404.html">404</a></li>
+                                                <li><a href="error-500.html">500</a></li>
+                                                <li><a href="under-construction.html">Under Construction</a></li>
+                                            </ul>
+                                        </li> -->
+                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="support.html">Support</a></li>
+                                        <!-- <li><a href="job-category.html">Category</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="javascript:void(0)">Checkout</a></li> -->
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="register.html">Register</a></li>
+                                        <li><a href="forgot-password.html">Forgot Password</a></li>
+                                    </ul>
+                                </li>
+                                <li class="submenu">
+                                    <a href="blog-list.html">Blog List</a>
+                                    <!-- <ul class="submenu">
+                                    <li><a href="blog-list.html">Blog List</a></li>
+                                     <li><a href="blog-grid.html">Blog Grid</a></li>
+                                        <li><a href="blog-masonry.html">Blog Masonry</a></li>
+                                        <li><a href="blog-modern.html">Blog Modern</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li> 
+                                </ul> -->
+                                </li>
+                                <li class="login-link">
+                                    <a href="login.html">Login / Signup</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="nav header-navbar-rht align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link login-three-head button" href="login.html"><span>Login</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link signin-three-head" href="register.html">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <div class="breadcrumb-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="breadcrumb-list">
+                            <nav aria-label="breadcrumb" class="page-breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item" aria-current="page">Courses</li>
+                                    <li class="breadcrumb-item active" aria-current="page">All Courses</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="course-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="showing-list">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="view-icons">
+                                            <!-- <a href="course-grid.html" class="grid-view"><i
+                                                    class="feather-grid"></i></a> -->
+                                            <a href="course-list.html" class="list-view active"><i
+                                                    class="feather-list"></i></a>
+                                        </div>
+                                        <div class="show-result">
+                                            <h4>Showing 10 results</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="show-filter add-course-info ">
+                                        <form action="#">
+                                            <div class="row gx-2 align-items-center">
+                                                <div class="col-md-6 col-item">
+                                                    <div class=" search-group">
+                                                        <i class="feather-search"></i>
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Search our courses">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-lg-6 col-item">
+                                                    <div class="form-group select-form mb-0">
+                                                        <select class="form-select select" name="sellist1">
+                                                            <option>Newly published </option>
+                                                            <option>published 1</option>
+                                                            <option>published 2</option>
+                                                            <option>published 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 d-flex">
+                                <div class="course-box course-design list-course d-flex">
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="javascript:void(0)">
+                                                <img class="img-fluid" alt src="assets/img/course/course-10.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="head-course-title">
+                                                <h3 class="title"><a href="javascript:void(0)">Information About UI/UX
+                                                        Design Degree</a></h3>
+                                                <div class="all-btn all-category d-flex align-items-center">
+                                                    <a href="javascript:void(0)" class="btn btn-primary">Enquiry NOW</a>
+                                                </div>
+                                            </div>
+                                            <div class="course-info border-bottom-0 pb-0 d-flex align-items-center">
+                                                <div class="rating-img d-flex align-items-center">
+                                                    <img src="assets/img/icon/icon-01.svg" alt>
+                                                    <p>12+ Lesson</p>
+                                                </div>
+                                                <div class="course-view d-flex align-items-center">
+                                                    <img src="assets/img/icon/icon-02.svg" alt>
+                                                    <p>9hr 30min</p>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star"></i>
+                                                <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                            </div>
+                                            <div class="course-group d-flex mb-0">
+                                                <div class="course-group-img d-flex">
+                                                    <a href="javascript:void(0)"><img src="assets/img/user/user1.jpg"
+                                                            alt class="img-fluid"></a>
+                                                    <div class="course-name">
+                                                        <h4><a href="javascript:void(0)">Rolands R</a></h4>
+                                                        <p>Instructor</p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="course-share d-flex align-items-center justify-content-center">
+                                                    <a href="#rate"><i class="fa-regular fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 d-flex">
+                                <div class="course-box course-design list-course d-flex">
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="javascript:void(0)">
+                                                <img class="img-fluid" alt src="assets/img/course/course-10.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="head-course-title">
+                                                <h3 class="title"><a href="javascript:void(0)">Information About UI/UX
+                                                        Design Degree</a></h3>
+                                                <div class="all-btn all-category d-flex align-items-center">
+                                                    <a href="javascript:void(0)" class="btn btn-primary">Enquiry NOW</a>
+                                                </div>
+                                            </div>
+                                            <div class="course-info border-bottom-0 pb-0 d-flex align-items-center">
+                                                <div class="rating-img d-flex align-items-center">
+                                                    <img src="assets/img/icon/icon-01.svg" alt>
+                                                    <p>12+ Lesson</p>
+                                                </div>
+                                                <div class="course-view d-flex align-items-center">
+                                                    <img src="assets/img/icon/icon-02.svg" alt>
+                                                    <p>9hr 30min</p>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star"></i>
+                                                <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                            </div>
+                                            <div class="course-group d-flex mb-0">
+                                                <div class="course-group-img d-flex">
+                                                    <a href="javascript:void(0)"><img src="assets/img/user/user1.jpg"
+                                                            alt class="img-fluid"></a>
+                                                    <div class="course-name">
+                                                        <h4><a href="javascript:void(0)">Rolands R</a></h4>
+                                                        <p>Instructor</p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="course-share d-flex align-items-center justify-content-center">
+                                                    <a href="#rate"><i class="fa-regular fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 d-flex">
+                                <div class="course-box course-design list-course d-flex">
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="javascript:void(0)">
+                                                <img class="img-fluid" alt src="assets/img/course/course-10.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="head-course-title">
+                                                <h3 class="title"><a href="javascript:void(0)">Information About UI/UX
+                                                        Design Degree</a></h3>
+                                                <div class="all-btn all-category d-flex align-items-center">
+                                                    <a href="javascript:void(0)" class="btn btn-primary">Enquiry NOW</a>
+                                                </div>
+                                            </div>
+                                            <div class="course-info border-bottom-0 pb-0 d-flex align-items-center">
+                                                <div class="rating-img d-flex align-items-center">
+                                                    <img src="assets/img/icon/icon-01.svg" alt>
+                                                    <p>12+ Lesson</p>
+                                                </div>
+                                                <div class="course-view d-flex align-items-center">
+                                                    <img src="assets/img/icon/icon-02.svg" alt>
+                                                    <p>9hr 30min</p>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star"></i>
+                                                <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                            </div>
+                                            <div class="course-group d-flex mb-0">
+                                                <div class="course-group-img d-flex">
+                                                    <a href="javascript:void(0)"><img src="assets/img/user/user1.jpg"
+                                                            alt class="img-fluid"></a>
+                                                    <div class="course-name">
+                                                        <h4><a href="javascript:void(0)">Rolands R</a></h4>
+                                                        <p>Instructor</p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="course-share d-flex align-items-center justify-content-center">
+                                                    <a href="#rate"><i class="fa-regular fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 d-flex">
+                                <div class="course-box course-design list-course d-flex">
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="javascript:void(0)">
+                                                <img class="img-fluid" alt src="assets/img/course/course-10.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="head-course-title">
+                                                <h3 class="title"><a href="javascript:void(0)">Information About UI/UX
+                                                        Design Degree</a></h3>
+                                                <div class="all-btn all-category d-flex align-items-center">
+                                                    <a href="javascript:void(0)" class="btn btn-primary">Enquiry NOW</a>
+                                                </div>
+                                            </div>
+                                            <div class="course-info border-bottom-0 pb-0 d-flex align-items-center">
+                                                <div class="rating-img d-flex align-items-center">
+                                                    <img src="assets/img/icon/icon-01.svg" alt>
+                                                    <p>12+ Lesson</p>
+                                                </div>
+                                                <div class="course-view d-flex align-items-center">
+                                                    <img src="assets/img/icon/icon-02.svg" alt>
+                                                    <p>9hr 30min</p>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star"></i>
+                                                <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                            </div>
+                                            <div class="course-group d-flex mb-0">
+                                                <div class="course-group-img d-flex">
+                                                    <a href="javascript:void(0)"><img src="assets/img/user/user1.jpg"
+                                                            alt class="img-fluid"></a>
+                                                    <div class="course-name">
+                                                        <h4><a href="javascript:void(0)">Rolands R</a></h4>
+                                                        <p>Instructor</p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="course-share d-flex align-items-center justify-content-center">
+                                                    <a href="#rate"><i class="fa-regular fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 d-flex">
+                                <div class="course-box course-design list-course d-flex">
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="javascript:void(0)">
+                                                <img class="img-fluid" alt src="assets/img/course/course-10.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="head-course-title">
+                                                <h3 class="title"><a href="javascript:void(0)">Information About UI/UX
+                                                        Design Degree</a></h3>
+                                                <div class="all-btn all-category d-flex align-items-center">
+                                                    <a href="javascript:void(0)" class="btn btn-primary">Enquiry NOW</a>
+                                                </div>
+                                            </div>
+                                            <div class="course-info border-bottom-0 pb-0 d-flex align-items-center">
+                                                <div class="rating-img d-flex align-items-center">
+                                                    <img src="assets/img/icon/icon-01.svg" alt>
+                                                    <p>12+ Lesson</p>
+                                                </div>
+                                                <div class="course-view d-flex align-items-center">
+                                                    <img src="assets/img/icon/icon-02.svg" alt>
+                                                    <p>9hr 30min</p>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star"></i>
+                                                <span class="d-inline-block average-rating"><span>4.0</span> (15)</span>
+                                            </div>
+                                            <div class="course-group d-flex mb-0">
+                                                <div class="course-group-img d-flex">
+                                                    <a href="javascript:void(0)"><img src="assets/img/user/user1.jpg"
+                                                            alt class="img-fluid"></a>
+                                                    <div class="course-name">
+                                                        <h4><a href="javascript:void(0)">Rolands R</a></h4>
+                                                        <p>Instructor</p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="course-share d-flex align-items-center justify-content-center">
+                                                    <a href="#rate"><i class="fa-regular fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- <div class="col-lg-3 theiaStickySidebar">
+                        <div class="filter-clear">
+                            <div class="clear-filter d-flex align-items-center">
+                                <h4><i class="feather-filter"></i>Filters</h4>
+                                <div class="clear-text">
+                                    <p>CLEAR</p>
+                                </div>
+                            </div>
+
+                            <div class="card search-filter categories-filter-blk">
+                                <div class="card-body">
+                                    <div class="filter-widget mb-0">
+                                        <div class="categories-head d-flex align-items-center">
+                                            <h4>Course categories</h4>
+                                            <i class="fas fa-angle-down"></i>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check">
+                                                <input type="checkbox" name="select_specialist">
+                                                <span class="checkmark"></span> Backend (3)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check">
+                                                <input type="checkbox" name="select_specialist">
+                                                <span class="checkmark"></span> CSS (2)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check">
+                                                <input type="checkbox" name="select_specialist">
+                                                <span class="checkmark"></span> Frontend (2)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check">
+                                                <input type="checkbox" name="select_specialist" checked>
+                                                <span class="checkmark"></span> General (2)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check">
+                                                <input type="checkbox" name="select_specialist" checked>
+                                                <span class="checkmark"></span> IT & Software (2)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check">
+                                                <input type="checkbox" name="select_specialist">
+                                                <span class="checkmark"></span> Photography (2)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check">
+                                                <input type="checkbox" name="select_specialist">
+                                                <span class="checkmark"></span> Programming Language (3)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check mb-0">
+                                                <input type="checkbox" name="select_specialist">
+                                                <span class="checkmark"></span> Technology (2)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card search-filter">
+                                <div class="card-body">
+                                    <div class="filter-widget mb-0">
+                                        <div class="categories-head d-flex align-items-center">
+                                            <h4>Instructors</h4>
+                                            <i class="fas fa-angle-down"></i>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check">
+                                                <input type="checkbox" name="select_specialist">
+                                                <span class="checkmark"></span> Keny White (10)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check">
+                                                <input type="checkbox" name="select_specialist">
+                                                <span class="checkmark"></span> Hinata Hyuga (5)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check">
+                                                <input type="checkbox" name="select_specialist">
+                                                <span class="checkmark"></span> John Doe (3)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check mb-0">
+                                                <input type="checkbox" name="select_specialist" checked>
+                                                <span class="checkmark"></span> Nicole Brown
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card search-filter ">
+                                <div class="card-body">
+                                    <div class="filter-widget mb-0">
+                                        <div class="categories-head d-flex align-items-center">
+                                            <h4>Price</h4>
+                                            <i class="fas fa-angle-down"></i>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check custom_one">
+                                                <input type="radio" name="select_specialist">
+                                                <span class="checkmark"></span> All (18)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check custom_one">
+                                                <input type="radio" name="select_specialist">
+                                                <span class="checkmark"></span> Free (3)
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label class="custom_check custom_one mb-0">
+                                                <input type="radio" name="select_specialist" checked>
+                                                <span class="checkmark"></span> Paid (15)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card post-widget ">
+                                <div class="card-body">
+                                    <div class="latest-head">
+                                        <h4 class="card-title">Latest Courses</h4>
+                                    </div>
+                                    <ul class="latest-posts">
+                                        <li>
+                                            <div class="post-thumb">
+                                                <a href="javascript:void(0)">
+                                                    <img class="img-fluid" src="assets/img/blog/blog-01.jpg" alt>
+                                                </a>
+                                            </div>
+                                            <div class="post-info free-color">
+                                                <h4>
+                                                    <a href="javascript:void(0)">Introduction LearnPress – LMS
+                                                        plugin</a>
+                                                </h4>
+                                                <p>FREE</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="post-thumb">
+                                                <a href="javascript:void(0)">
+                                                    <img class="img-fluid" src="assets/img/blog/blog-02.jpg" alt>
+                                                </a>
+                                            </div>
+                                            <div class="post-info">
+                                                <h4>
+                                                    <a href="javascript:void(0)">Become a PHP Master and Make Money</a>
+                                                </h4>
+                                                <p>$200</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="post-thumb">
+                                                <a href="#">
+                                                    <img class="img-fluid" src="assets/img/blog/blog-03.jpg" alt>
+                                                </a>
+                                            </div>
+                                            <div class="post-info free-color">
+                                                <h4>
+                                                    <a href="blog-details.html">Learning jQuery Mobile for Beginners</a>
+                                                </h4>
+                                                <p>FREE</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="post-thumb">
+                                                <a href="javascript:void(0)">
+                                                    <img class="img-fluid" src="assets/img/blog/blog-01.jpg" alt>
+                                                </a>
+                                            </div>
+                                            <div class="post-info">
+                                                <h4>
+                                                    <a href="javascript:void(0).html">Improve Your CSS Workflow with
+                                                        SASS</a>
+                                                </h4>
+                                                <p>$200</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="post-thumb ">
+                                                <a href="javascript:void(0)">
+                                                    <img class="img-fluid" src="assets/img/blog/blog-02.jpg" alt>
+                                                </a>
+                                            </div>
+                                            <div class="post-info free-color">
+                                                <h4>
+                                                    <a href="javascript:void(0)">HTML5/CSS3 Essentials in 4-Hours</a>
+                                                </h4>
+                                                <p>FREE</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer footer-three">
+
+            <div class="footer-three-top" data-aos="fade-up">
+                <div class="container">
+                    <div class="footer-three-top-content">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-6 col-12">
+
+                                <div class="footer-widget-three footer-about">
+                                    <div class="footer-three-logo">
+                                        <img class="img-fluid" src="assets/img/logo/logo.png" alt="logo">
+                                    </div>
+                                    <div class="footer-three-about">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit nulla gravida ut
+                                            elit arcu egestas felis. Scelerisque at in magna dolor massa ipsum arcu
+                                            lacus. Lobortis posuere justo nunc diam ac massa. Maecenas tellus adipiscing
+                                            ac fames ut ac posuere. Aliquam, integer proin hendrerit euismod et. </p>
+                                    </div>
+                                    <div class="newsletter-title">
+                                        <h6>Get Updates</h6>
+                                    </div>
+                                    <div class="box-form-newsletter">
+                                        <form class="form-newsletter">
+                                            <input class="input-newsletter" type="text"
+                                                placeholder="Enter your email here">
+                                            <button class="btn btn-default font-heading icon-send-letter">Subscribe
+                                                Now</button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-12">
+
+                                <div class="footer-widget-three footer-menu-three footer-three-right">
+                                    <h6 class="footer-three-title">For Instructor</h6>
+                                    <ul>
+                                        <!-- <li><a href="instructor-profile.html">Profile</a></li> -->
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="register.html">Register</a></li>
+                                        <li><a href="instructor-list.html">Instructor</a></li>
+                                        <li><a href="instructor-dashboard.html"> Dashboard</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-12">
+
+                                <div class="footer-widget-three footer-menu-three">
+                                    <h6 class="footer-three-title">For Student</h6>
+                                    <ul>
+                                        <!-- <li><a href="student-profile.html">Profile</a></li> -->
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="register.html">Register</a></li>
+                                        <li><a href="students-list.html">Student</a></li>
+                                        <!-- <li><a href="deposit-student-dashboard.html"> Dashboard</a></li> -->
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footer-three-bottom" data-aos="fade-up">
+                <div class="container">
+
+                    <div class="copyright-three">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="social-icon-three">
+                                    <h6>Connect Socially</h6>
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)" target="_blank" class="feather-facebook-icon">
+                                                <i class="feather-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" target="_blank" class="feather-twitter-icon">
+                                                <i class="feather-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" target="_blank" class="feather-linkedin-icon">
+                                                <i class="feather-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" target="_blank" class="feather-youtube-icon">
+                                                <i class="feather-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="privacy-policy-three">
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Terms & Condition</a></li>
+                                        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                                        <li><a href="javascript:void(0)">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="copyright-text-three">
+                                    <p class="mb-0">&copy; 2023 CodeMastery. All rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/plugins/select2/js/select2.min.js"></script>
+
+    <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+
+</html>
